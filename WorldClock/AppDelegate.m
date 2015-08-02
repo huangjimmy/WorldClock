@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:kWatchRed} forState:UIControlStateNormal];
+    [[UIBarButtonItem appearance] setTintColor:kWatchRed];
+    [[UITableView appearance] setTintColor:kWatchRed];
     return YES;
 }
 

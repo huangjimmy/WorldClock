@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  WorldClock
+
+  Created by HUANG,Shaojun on 8/2/15.
+  Copyright (c) 2015 test. All rights reserved.
+*/
+"World Clock" = "世界时钟";
+"Today" = "今天";
+"Yesterday" = "昨天";
+"Tomorrow" = "明天";
+"Today, %d hours behind" = "今天, 晚 %d 小时";
+"Today, %d hours ahead" = "今天, 比本地快 %d 小时";
+"Yesterday, %d hours behind" = "昨天, 晚 %d 小时";
+"Tomorrow, %d hours ahead" = "明天, 比本地快 %d 小时";
+
+"Today, %d hour behind" = "今天, 晚 %d 小时";
+"Today, %d hour ahead" = "今天, 比本地快 %d 小时";
+"Yesterday, %d hour behind" = "昨天, 晚 %d 小时";
+"Tomorrow, %d hour ahead" = "明天, 比本地快 %d 小时";
+
+"Cancel" = "取消";
+"Choose City." = "选取城市。";
+
+"No World Clock" = "无世界时钟";
+"A list of world clocks." = "";

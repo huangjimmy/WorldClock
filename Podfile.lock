@@ -1,0 +1,13 @@
+PODS:
+  - Colorkit (0.1.0)
+  - UITableView-DataSet (1.1)
+
+DEPENDENCIES:
+  - Colorkit
+  - UITableView-DataSet
+
+SPEC CHECKSUMS:
+  Colorkit: 796f40223fbbec3fc9c24d32608202ef82bfb90a
+  UITableView-DataSet: c34666eec7aa6772f652065ec95053ac160e3d2b
+
+COCOAPODS: 0.37.2

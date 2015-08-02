@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B771F51EA6CA687F7A9BA6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2A748CFF9AB8B239B9EB53 /* libPods.a */; };
 		BF0F92B01B6DEB1700177F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92AF1B6DEB1700177F14 /* main.m */; };
 		BF0F92B31B6DEB1700177F14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92B21B6DEB1700177F14 /* AppDelegate.m */; };
-		BF0F92B61B6DEB1700177F14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92B51B6DEB1700177F14 /* ViewController.m */; };
 		BF0F92B91B6DEB1700177F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0F92B71B6DEB1700177F14 /* Main.storyboard */; };
 		BF0F92BB1B6DEB1700177F14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0F92BA1B6DEB1700177F14 /* Images.xcassets */; };
 		BF0F92BE1B6DEB1700177F14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0F92BC1B6DEB1700177F14 /* LaunchScreen.xib */; };
 		BF0F92CA1B6DEB1700177F14 /* WorldClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92C91B6DEB1700177F14 /* WorldClockTests.m */; };
+		BF0F92D71B6DEBE700177F14 /* WorldClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92D61B6DEBE700177F14 /* WorldClockViewController.m */; };
+		BF0F92DA1B6DEF4800177F14 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF0F92DC1B6DEF4800177F14 /* Localizable.strings */; };
+		BF0F92E11B6DF43700177F14 /* AnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92E01B6DF43700177F14 /* AnalogClockView.m */; };
+		BF0F92E51B6DF7E300177F14 /* WorldClockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92E41B6DF7E300177F14 /* WorldClockTableViewCell.m */; };
+		BF0F92E81B6E0DA100177F14 /* UIDigitalClockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92E71B6E0DA100177F14 /* UIDigitalClockLabel.m */; };
+		BF0F92EB1B6E151500177F14 /* ChooseTimeZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92EA1B6E151500177F14 /* ChooseTimeZoneViewController.m */; };
+		BF0F92EE1B6E4E1000177F14 /* BigClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F92ED1B6E4E1000177F14 /* BigClockViewController.m */; };
+		DEF8A7BD09B0D3AA2E30A331 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2A748CFF9AB8B239B9EB53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F4B8B6DA3618B3D07D6AB6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		72E98E82FCDE1332EAAF7500 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BB2A748CFF9AB8B239B9EB53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0F92AA1B6DEB1700177F14 /* WorldClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0F92AE1B6DEB1700177F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0F92AF1B6DEB1700177F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF0F92B11B6DEB1700177F14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF0F92B21B6DEB1700177F14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF0F92B41B6DEB1700177F14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF0F92B51B6DEB1700177F14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF0F92B81B6DEB1700177F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF0F92BA1B6DEB1700177F14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF0F92BD1B6DEB1700177F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF0F92C31B6DEB1700177F14 /* WorldClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0F92C81B6DEB1700177F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0F92C91B6DEB1700177F14 /* WorldClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldClockTests.m; sourceTree = "<group>"; };
+		BF0F92D31B6DEB7F00177F14 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BF0F92D41B6DEB7F00177F14 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BF0F92D51B6DEBE700177F14 /* WorldClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldClockViewController.h; sourceTree = "<group>"; };
+		BF0F92D61B6DEBE700177F14 /* WorldClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldClockViewController.m; sourceTree = "<group>"; };
+		BF0F92DB1B6DEF4800177F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF0F92DD1B6DEF4C00177F14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BF0F92DE1B6DEF4D00177F14 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BF0F92DF1B6DF43700177F14 /* AnalogClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalogClockView.h; sourceTree = "<group>"; };
+		BF0F92E01B6DF43700177F14 /* AnalogClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalogClockView.m; sourceTree = "<group>"; };
+		BF0F92E21B6DF4B400177F14 /* WorldClock-Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldClock-Prefix.h"; sourceTree = SOURCE_ROOT; };
+		BF0F92E31B6DF7E300177F14 /* WorldClockTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldClockTableViewCell.h; sourceTree = "<group>"; };
+		BF0F92E41B6DF7E300177F14 /* WorldClockTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldClockTableViewCell.m; sourceTree = "<group>"; };
+		BF0F92E61B6E0DA100177F14 /* UIDigitalClockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDigitalClockLabel.h; sourceTree = "<group>"; };
+		BF0F92E71B6E0DA100177F14 /* UIDigitalClockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDigitalClockLabel.m; sourceTree = "<group>"; };
+		BF0F92E91B6E151500177F14 /* ChooseTimeZoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseTimeZoneViewController.h; sourceTree = "<group>"; };
+		BF0F92EA1B6E151500177F14 /* ChooseTimeZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseTimeZoneViewController.m; sourceTree = "<group>"; };
+		BF0F92EC1B6E4E1000177F14 /* BigClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigClockViewController.h; sourceTree = "<group>"; };
+		BF0F92ED1B6E4E1000177F14 /* BigClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigClockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B771F51EA6CA687F7A9BA6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +82,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF8A7BD09B0D3AA2E30A331 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C9B34E1ECBCA1FFC10B61D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72E98E82FCDE1332EAAF7500 /* Pods.debug.xcconfig */,
+				3F4B8B6DA3618B3D07D6AB6C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CB333795AB09CE7DB076271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB2A748CFF9AB8B239B9EB53 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF0F92A11B6DEB1700177F14 = {
 			isa = PBXGroup;
 			children = (
 				BF0F92AC1B6DEB1700177F14 /* WorldClock */,
 				BF0F92C61B6DEB1700177F14 /* WorldClockTests */,
 				BF0F92AB1B6DEB1700177F14 /* Products */,
+				4C9B34E1ECBCA1FFC10B61D1 /* Pods */,
+				6CB333795AB09CE7DB076271 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +129,20 @@
 		BF0F92AC1B6DEB1700177F14 /* WorldClock */ = {
 			isa = PBXGroup;
 			children = (
+				BF0F92D51B6DEBE700177F14 /* WorldClockViewController.h */,
+				BF0F92D61B6DEBE700177F14 /* WorldClockViewController.m */,
+				BF0F92E31B6DF7E300177F14 /* WorldClockTableViewCell.h */,
+				BF0F92E41B6DF7E300177F14 /* WorldClockTableViewCell.m */,
+				BF0F92DF1B6DF43700177F14 /* AnalogClockView.h */,
+				BF0F92E01B6DF43700177F14 /* AnalogClockView.m */,
+				BF0F92E61B6E0DA100177F14 /* UIDigitalClockLabel.h */,
+				BF0F92E71B6E0DA100177F14 /* UIDigitalClockLabel.m */,
+				BF0F92E91B6E151500177F14 /* ChooseTimeZoneViewController.h */,
+				BF0F92EA1B6E151500177F14 /* ChooseTimeZoneViewController.m */,
+				BF0F92EC1B6E4E1000177F14 /* BigClockViewController.h */,
+				BF0F92ED1B6E4E1000177F14 /* BigClockViewController.m */,
 				BF0F92B11B6DEB1700177F14 /* AppDelegate.h */,
 				BF0F92B21B6DEB1700177F14 /* AppDelegate.m */,
-				BF0F92B41B6DEB1700177F14 /* ViewController.h */,
-				BF0F92B51B6DEB1700177F14 /* ViewController.m */,
 				BF0F92B71B6DEB1700177F14 /* Main.storyboard */,
 				BF0F92BA1B6DEB1700177F14 /* Images.xcassets */,
 				BF0F92BC1B6DEB1700177F14 /* LaunchScreen.xib */,
@@ -96,6 +154,8 @@
 		BF0F92AD1B6DEB1700177F14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF0F92DC1B6DEF4800177F14 /* Localizable.strings */,
+				BF0F92E21B6DF4B400177F14 /* WorldClock-Prefix.h */,
 				BF0F92AE1B6DEB1700177F14 /* Info.plist */,
 				BF0F92AF1B6DEB1700177F14 /* main.m */,
 			);
@@ -126,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0F92CD1B6DEB1700177F14 /* Build configuration list for PBXNativeTarget "WorldClock" */;
 			buildPhases = (
+				86A1FE4684FBF00351C474E0 /* Check Pods Manifest.lock */,
 				BF0F92A61B6DEB1700177F14 /* Sources */,
 				BF0F92A71B6DEB1700177F14 /* Frameworks */,
 				BF0F92A81B6DEB1700177F14 /* Resources */,
+				B057B8DFB1B7EF0D5A357951 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0F92D01B6DEB1700177F14 /* Build configuration list for PBXNativeTarget "WorldClockTests" */;
 			buildPhases = (
+				46B46A19A4876852F9506DC9 /* Check Pods Manifest.lock */,
 				BF0F92BF1B6DEB1700177F14 /* Sources */,
 				BF0F92C01B6DEB1700177F14 /* Frameworks */,
 				BF0F92C11B6DEB1700177F14 /* Resources */,
+				2E61A06936E4C78196812553 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +246,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = BF0F92A11B6DEB1700177F14;
 			productRefGroup = BF0F92AB1B6DEB1700177F14 /* Products */;
@@ -200,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0F92B91B6DEB1700177F14 /* Main.storyboard in Resources */,
+				BF0F92DA1B6DEF4800177F14 /* Localizable.strings in Resources */,
 				BF0F92BE1B6DEB1700177F14 /* LaunchScreen.xib in Resources */,
 				BF0F92BB1B6DEB1700177F14 /* Images.xcassets in Resources */,
 			);
@@ -214,14 +280,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E61A06936E4C78196812553 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46B46A19A4876852F9506DC9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86A1FE4684FBF00351C474E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B057B8DFB1B7EF0D5A357951 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF0F92A61B6DEB1700177F14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0F92B61B6DEB1700177F14 /* ViewController.m in Sources */,
+				BF0F92EE1B6E4E1000177F14 /* BigClockViewController.m in Sources */,
+				BF0F92E51B6DF7E300177F14 /* WorldClockTableViewCell.m in Sources */,
+				BF0F92D71B6DEBE700177F14 /* WorldClockViewController.m in Sources */,
+				BF0F92E81B6E0DA100177F14 /* UIDigitalClockLabel.m in Sources */,
 				BF0F92B31B6DEB1700177F14 /* AppDelegate.m in Sources */,
 				BF0F92B01B6DEB1700177F14 /* main.m in Sources */,
+				BF0F92EB1B6E151500177F14 /* ChooseTimeZoneViewController.m in Sources */,
+				BF0F92E11B6DF43700177F14 /* AnalogClockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +382,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BF0F92B81B6DEB1700177F14 /* Base */,
+				BF0F92D31B6DEB7F00177F14 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,8 +391,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				BF0F92BD1B6DEB1700177F14 /* Base */,
+				BF0F92D41B6DEB7F00177F14 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		BF0F92DC1B6DEF4800177F14 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0F92DB1B6DEF4800177F14 /* Base */,
+				BF0F92DD1B6DEF4C00177F14 /* en */,
+				BF0F92DE1B6DEF4D00177F14 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,6 +434,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldClock-Prefix.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -330,6 +478,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldClock-Prefix.h";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -345,26 +495,33 @@
 		};
 		BF0F92CE1B6DEB1700177F14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E98E82FCDE1332EAAF7500 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorldClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BF0F92CF1B6DEB1700177F14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4B8B6DA3618B3D07D6AB6C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorldClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		BF0F92D11B6DEB1700177F14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E98E82FCDE1332EAAF7500 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +541,7 @@
 		};
 		BF0F92D21B6DEB1700177F14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4B8B6DA3618B3D07D6AB6C /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,6 +574,7 @@
 				BF0F92CF1B6DEB1700177F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF0F92D01B6DEB1700177F14 /* Build configuration list for PBXNativeTarget "WorldClockTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +583,7 @@
 				BF0F92D21B6DEB1700177F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

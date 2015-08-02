@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  WorldClock
+
+  Created by HUANG,Shaojun on 8/2/15.
+  Copyright (c) 2015 test. All rights reserved.
+*/
+"World Clock" = "World Clock";
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"Tomorrow" = "Tomorrow";
+"Today, %d hours behind" = "Today, %d hours behind";
+"Today, %d hours ahead" = "Today, %d hours ahead";
+"Yesterday, %d hours behind" = "Yesterday, %d hours behind";
+"Tomorrow, %d hours ahead" = "Tomorrow, %d hours ahead";
+
+"Today, %d hour behind" = "Today, %d hour behind";
+"Today, %d hour ahead" = "Today, %d hour ahead";
+"Yesterday, %d hour behind" = "Yesterday, %d hour behind";
+"Tomorrow, %d hour ahead" = "Tomorrow, %d hour ahead";
+
+"Cancel" = "Cancel";
+
+"No World Clock" = "No World Clock";
+"A list of world clocks." = "A list of world clocks.";
